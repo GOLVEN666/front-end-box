@@ -1,1 +1,765 @@
-1!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC''''H - OnePage Portfolio HTML5</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/Component 1 (Phone).png">
+
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/motion.css">
+
+</head>
+
+<body>
+
+
+    <!-- <div class="page-loader">
+        <div class="bounceball"></div>
+    </div> -->
+
+    <span class="icon-menu">
+        <span class="bar"></span>
+    <span class="bar"></span>
+    </span>
+    <svg wversion="1.1" height="1000px" width="1000px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="star-background">
+        <style>
+            
+        </style>
+      <defs>
+        <radialGradient cx="0%" cy="100%" r="100%" spreadMethod="pad" id="solarGradient">
+         <stop offset="0%" stop-color="hsla(0, 0%, 100%, 0.35)"/>
+         <stop offset="70%" stop-color="hsla(0, 0%, 0%, 0)"/>
+        </radialGradient>
+    
+        <radialGradient id="flickerGradient">
+            <stop offset="80%" stop-color="hsla(0, 0%, 0%, 1)"/>
+            <stop offset="100%" stop-color="hsla(0, 0%, 0%, 0.25)"/>
+        </radialGradient>
+    
+        <!-- single star used by <g id="stars"> -->
+        <path id="*" d="
+            M 0.000 0.500
+            L 1.736 3.604
+            L 0.391 0.312
+            L 3.900 0.890
+            L 0.487 -0.111
+            L 3.127 -2.494
+            L 0.217 -0.450
+            L 0.000 -4.000
+            L -0.217 -0.450
+            L -3.127 -2.494
+            L -0.487 -0.111
+            L -3.900 0.890
+            L -0.391 0.312
+            L -1.736 3.604
+            L 0.000 0.500
+        "/>
+    
+        <!-- random grid of stars used by <use href="#stars"/> -->
+        <g id="stars">
+            <use href="#*" x="13" y="26"/><use href="#*" x="229" y="45"/><use href="#*" x="361" y="12"/><use href="#*" x="491" y="40"/><use /><use href="#*" x="717" y="19"/><use href="#*" x="814" y="92"/><use href="#*" x="975" y="30"/><use href="#*" x="64" y="137"/><use href="#*" x="185" y="149"/><use href="#*" x="317" y="205"/><use href="#*" x="401" y="227"/><use href="#*" x="546" y="171"/><use href="#*" x="732" y="228"/><use href="#*" x="882" y="241"/><use href="#*" x="974" y="144"/><use href="#*" x="112" y="318"/><use href="#*" x="243" y="350"/><use href="#*" x="372" y="373"/><use href="#*" x="394" y="273"/><use href="#*" x="519" y="375"/><use href="#*" x="722" y="353"/><use href="#*" x="780" y="293"/><use href="#*" x="999" y="267"/><use href="#*" x="23" y="432"/><use href="#*" x="169" y="481"/><use href="#*" x="321" y="455"/><use href="#*" x="399" y="493"/><use href="#*" x="536" y="440"/><use href="#*" x="661" y="473"/><use href="#*" x="797" y="444"/><use href="#*" x="982" y="502"/><use href="#*" x="13" y="561"/><use href="#*" x="200" y="558"/><use href="#*" x="376" y="602"/><use href="#*" x="432" y="611"/><use href="#*" x="603" y="607"/><use href="#*" x="692" y="560"/><use href="#*" x="796" y="557"/><use href="#*" x="973" y="604"/><use href="#*" x="64" y="724"/><use href="#*" x="232" y="742"/><use href="#*" x="267" y="647"/><use href="#*" x="430" y="736"/><use href="#*" x="585" y="695"/><use href="#*" x="713" y="701"/><use href="#*" x="852" y="695"/><use href="#*" x="998" y="697"/><use href="#*" x="63" y="866"/><use href="#*" x="241" y="876"/><use href="#*" x="358" y="810"/><use href="#*" x="422" y="787"/><use href="#*" x="617" y="832"/><use href="#*" x="660" y="814"/><use href="#*" x="825" y="886"/><use href="#*" x="1008" y="863"/><use href="#*" x="82" y="910"/><use href="#*" x="238" y="993"/><use href="#*" x="301" y="946"/><use href="#*" x="476" y="1013"/><use href="#*" x="568" y="945"/><use href="#*" x="662" y="981"/><use href="#*" x="879" y="997" />
+        </g>
+      </defs>
+        <!-- three grids of stars -->
+        <use class="stars stars-sm-no-rotate" href="#stars"/>
+        <use class="stars stars-sm" href="#stars"/>
+        <use class="stars stars-md" href="#stars"/>
+    
+        <!-- random grid of circles which rotate and make the stars 'flicker' -->
+        <g class="flicker-circles">
+            <circle cx="47" cy="149"/><circle cx="290" cy="11"/><circle cx="506" cy="69"/><circle cx="808" cy="99"/><circle cx="962" cy="49"/><circle cx="15" cy="276"/><circle cx="257" cy="395"/><circle cx="465" cy="342"/><circle cx="707" cy="242"/><circle cx="901" cy="222"/><circle cx="68" cy="551"/><circle cx="270" cy="549"/><circle cx="573" cy="470"/><circle cx="708" cy="466"/><circle cx="914" cy="542"/><circle cx="40" cy="751"/><circle cx="366" cy="806"/><circle cx="461" cy="790"/><circle cx="644" cy="720"/><circle cx="905" cy="684"/><circle cx="192" cy="853"/><circle cx="218" cy="946"/><circle cx="431" cy="854"/><circle cx="740" cy="1006"/>
+        </g>
+    
+    
+        <!-- one more grid of stars in front of flicker-circles -->
+        <use class="stars stars-lg" href="#stars"/>
+    
+        <!-- gradient light source from nearby sun -->
+        <rect class="sun"/>
+    
+        <!-- this is what a giant star looks like -->
+        <!-- <use href="#*" x="10" y="10" transform="scale(50)" fill="yellow"/> -->
+    </svg>
+
+    <div class="global-color">
+        </span>
+        <div class="inner">
+            <div class="overlay"></div>
+            <div class="global-color-option">
+                <span class="close-settings">
+                    <i class="las la-times"></i>
+                </span>
+                <h2>Configuration</h2>
+                <div class="global-color-option-inner">
+                    <p>Colors</p>
+                    <div class="color-boxed">
+                        <a href="#" class="clr-active" onclick="color1();"></a>
+                        <a href="#" onclick="color2();"></a>
+                        <a href="#" onclick="color3();"></a>
+                        <a href="#" onclick="color4();"></a>
+                        <a href="#" onclick="color5();"></a>
+                        <a href="#" onclick="color6();"></a>
+                        <a href="#" onclick="color7();"></a>
+                        <a href="#" onclick="color8();"></a>
+                    </div>
+
+                    <p>THREE DIMENSIONAL SHAPES</p>
+                    <ul class="themes">
+                        <li><a href="./home1.html">STAR FLOW</a></li>
+                        <li><a href="./home2.html">3D LOGO</a></li>
+                        <li><a href="./home3.html">Water Waves</a></li>
+                        <li><a href="./home4.html">Liquids Wavy</a></li>
+                        <li><a href="./home6.html">Solid Color</a></li>
+                        <li><a href="./home5.html">Simple Strings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive-sidebar-menu">
+        <div class="overlay"></div>
+        <div class="sidebar-menu-inner">
+            <div class="menu-wrap">
+                <p>Menu</p>
+                <ul class="menu scroll-nav-responsive d-flex">
+                    <li>
+                        <a class="scroll-to" href="#home">
+                            <i class="las la-home"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#about">
+                            <i class="lar la-user"></i> <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#resume">
+                            <i class="las la-briefcase"></i> <span>Resume</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#services">
+                            <i class="las la-stream"></i> <span>Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#skills">
+                            <i class="las la-shapes"></i> <span>Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#portfolio">
+                            <i class="las la-grip-vertical"></i> <span>Portfolios</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#testimonial">
+                            <i class="lar la-comment"></i> <span>Testimonial</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#contact">
+                            <i class="las la-envelope"></i> <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar-social">
+                <p>Social</p>
+                <ul class="social-links d-flex align-items-center">
+                    <li>
+                        <a href=""><i class="lab la-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="lab la-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="lab la-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <ul class="menu scroll-nav d-flex">
+        <li>
+            <a class="scroll-to" href="#home">
+                <span>Home</span> <i class="las la-home"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#about">
+                <span>About</span> <i class="lar la-user"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#resume">
+                <span>Resume</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#services">
+                <span>Services</span> <i class="las la-stream"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#skills">
+                <span>Skills</span> <i class="las la-shapes"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#portfolio">
+                <span>Portfolios</span> <i class="las la-grip-vertical"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#testimonial">
+                <span>Testimonial</span> <i class="lar la-comment"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#contact">
+                <span>Contact</span> <i class="las la-envelope"></i>
+            </a>
+        </li>
+    </ul>
+
+    <div class="left-sidebar">
+        <div class="sidebar-header d-flex align-items-center justify-content-between">
+            <img src="./img/Group 8.png" alt="Logo">
+            <span class="designation">UI UX Designer & Developer</span>
+        </div>
+        <img class="me" src="./img/Frame666.png" alt="Me">
+        <h2 class="email">achraf.xchahid@gmail.com</h2>
+        <h2 class="address">Base in Casablanca, MA</h2>
+        <p class="copyright">&copy; 2023 ACH. All Rights Reserved</p>
+        <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+            <li>
+                <a href=""><i class="lab la-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://ma.linkedin.com/in/achraf-chahid-622861259"><i class="lab la-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/achraf_shahid/"><i class="lab la-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/GOLVEN666"><i class="lab la-github"></i></a>
+            </li>
+        </ul>
+        <a href="#" class="theme-btn">
+            <i class="las la-envelope"></i> Hire Me!
+        </a>
+    </div>
+
+    <main class="ach-main">
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <div class="left-sidebar">
+                    <div class="sidebar-header d-flex align-items-center justify-content-between">
+                        <img class="ACH" src="./img/Component 1 (Phone).png" alt="Logo">
+                        <span class="designation">UI UX Designer & Developer</span>
+                    </div>
+                    <img class="me" src="./img/Frame666.png" alt="Me">
+                    <h2 class="email">achraf.xchahid@gmail.com</h2>
+                    <h2 class="address">Base in Casablanca, MA</h2>
+                    <p class="copyright">&copy; 2024 ACH. All Rights Reserved</p>
+                    <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
+                        <li>
+                            <a href="https://ma.linkedin.com/in/achraf-chahid-622861259"><i class="lab la-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/achraf_shahid/"><i class="lab la-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/GOLVEN666"><i class="lab la-github"></i></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="theme-btn">
+                        <i class="las la-envelope"></i> Hire Me!
+                    </a>
+                </div>
+
+                <section class="hero-section page-section scroll-to-page" id="home">
+
+                    <div class="custom-container">
+                        <div class="hero-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-home"></i> Introduce
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Say Hi from <span>ACH</span>, Designer and Developer</h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">I design and code beautifully simple things and i love what i do. Just simple like that!</p>
+                            <a href="#portfolio" class="go-to-project-btn scroll-to scroll-animation" data-animation="rotate_up">
+                                <img src="./img/round-text.png" alt="Rounded Text">
+                                <i class="las la-arrow-down"></i>
+                            </a>
+
+                            <div class="facts d-flex">
+                                <div class="left scroll-animation" data-animation="fade_from_left">
+                                    <h1>2+</h1>
+                                    <p>Years of <br>Experience</p>
+                                </div>
+                                <div class="right scroll-animation" data-animation="fade_from_right">
+                                    <h1>10+</h1>
+                                    <p>projects completed on <br>2 countries</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about-area page-section scroll-to-page" id="about">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-user"></i> About
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Every great designs begin with<br> an even <span>better story</span></h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer
+                                use. I'm quietly confident, naturally curious, and perpetually working on improving my chopsone design problem at a time.</p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="resume-area page-section scroll-to-page" id="resume">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-briefcase"></i> Resume
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h1>
+                            </div>
+
+<!-- Replace with your experience details -->
+<section class="skills-area page-section scroll-to-page" id="experience">
+    <div class="custom-container">
+        <div class="skills-content content-width">
+            <div class="section-header">
+                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                    <i class="las la-shapes"></i> Professional Experience
+                </h4>
+                <h1 class="scroll-animation" data-animation="fade_from_bottom">Work <span>Experience</span></h1>
+            </div>
+
+            <div class="resume-timeline">
+                <div class="item scroll-animation" data-animation="fade_from_right">
+                    <span class="date">2024 - Present</span>
+                    <h2>Designer & Developer</h2>
+                    <p>AXH Agency</p>
+                    <h2>Front-End Developer</h2>
+                    <p>Free-lancing</p>
+                    <span class="date">2023 - Present</span>
+                    <h2>Education Program Manager</h2>
+                    <p>"DeepSchooL" Private Education Center</p>
+                </div>
+                <div class="section-header">
+                    <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                    <i class="las la-briefcase"></i> Resume
+                    </h4>
+                    <h1 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h1>
+                    <div class="item scroll-animation" data-animation="fade_from_right">
+                        <span class="date">2023</span>
+                        <h2>Bac in Applied Sciences</h2>
+                        <p>Lycée Technique Jaber Ibnou Hayyan</p>
+                        <span class="date">2020</span>
+                        <h2>Bac Degree in SF</h2>
+                        <p>Lycée Abdelmallek</p>
+                    </div>
+                    </div>
+
+                <div class="item scroll-animation" data-animation="fade_from_right">
+                    <span class="date">2021 - 2023</span>
+                    <h2>Digital Marketing Manager</h2>
+                    <p>"HOA MANAGEMENT" Digital Agency</p>
+                    <p>Additional Skills:</p>
+                    <ul>
+                        <li>Strong communication skills, including effective presentation of findings and recommendations to clients.</li>
+                        <li>Experience working with clients across diverse industries, demonstrating the ability to understand and address unique client needs.</li>
+                        <li>Proficiency in marketing automation tools such as Marketo or HubSpot.</li>
+                        <li>Experience with various digital marketing channels, including email marketing, social media, search engine optimization (SEO),...</li>
+                    </ul>
+                </div>
+                <div class="item scroll-animation" data-animation="fade_from_right">
+                    <span class="date">2020</span>
+                    <h2>Electronic Repair Technician</h2>
+                    <p>Entrepreneur</p>
+                    <ul>
+                        <li>Proficient in hardware and software electronic repairs, specializing in system modifications and optimization.</li>
+                        <li>Skilled in repairing various equipment and thermal devices, such as irons and heating plates.</li>
+                        <li>Experienced in flashing devices and computers, as well as data recovery.</li>
+                        <li>Well-versed in troubleshooting and repairing devices powered by electric motors, including routers, Wi-Fi systems, and televisions.</li>
+                    </ul>
+                </div>
+                <div class="item scroll-animation" data-animation="fade_from_right">
+                    <span class="date">2020 - Present</span>
+                    <h2>Discord Server Creator</h2>
+                    <p>ASH#4784</p>
+                    <ul>
+                        <li>Successfully created and managed multiple Discord servers for diverse online communities and groups, including a server with over 1000 members.</li>
+                        <li>Facilitated effective communication and collaboration among members using Discord and other relevant tools.</li>
+                        <li>Demonstrated strong moderation skills, ensuring adherence to community rules and fostering a positive and welcoming environment.</li>
+                        <li>Customized channels, roles, and permissions to cater to specific groups or activities.</li>
+                        <li>Developed and implemented community growth and retention strategies, resulting in increased engagement and loyalty.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="services-area page-section scroll-to-page" id="services">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Services
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h1>
+                            </div>
+
+                            <div class="services-items">
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>Website Design</h2>
+                                    <p>I created digital products with unique ideas use Figma & Framer</p>
+                                    <span class="projects">10 Projects</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-code"></i>
+                                    <h2>Development</h2>
+                                    <p>I build website go live with Figma, Webflow or WordPress</p>
+                                    <span class="projects">20 Projects</span>
+                                </div>
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-bezier-curve"></i>
+                                    <h2>SEO/Marketing</h2>
+                                    <p>Increase the traffic for your website with SEO optimized</p>
+                                    <span class="projects">8 Projects</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="skills-area page-section scroll-to-page" id="skills">
+                    <div class="custom-container">
+                        <div class="skills-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-shapes"></i> my skills
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Advantages</span></h1>
+                            </div>
+
+                            <div class="row skills text-center">
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./img/figma.png" alt="Figma">
+                                            <h1 class="percent">92%</h1>
+                                        </div>
+                                        <p class="name">Figma</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./img/framer.png" alt="Framer">
+                                            <h1 class="percent">40%</h1>
+                                        </div>
+                                        <p class="name">Framer</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./img/adobe (Custom).png" alt="Photoshop">
+                                            <h1 class="percent">89%</h1>
+                                        </div>
+                                        <p class="name">Adobe design</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./img/react.png" alt="React">
+                                            <h1 class="percent">90%</h1>
+                                        </div>
+                                        <p class="name">Front-End dev</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./img/wordpress.png" alt="WordPress">
+                                            <h1 class="percent">86%</h1>
+                                        </div>
+                                        <p class="name">WordPress</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="skill">
+                                        <div class="skill-inner">
+                                            <img src="./img/c p (Custom).png" alt="c/py">
+                                            <h1 class="percent">70%</h1>
+                                        </div>
+                                        <p class="name">c c++ python</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="portfolio-area page-section scroll-to-page" id="portfolio">
+                    <div class="custom-container">
+                        <div class="portfolio-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-grip-vertical"></i> portfolio
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Projects</span></h1>
+                            </div>
+
+                            <div class="row portfolio-items">
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-full">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./img/Untitled design (2).png" data-lightbox="example-1">
+                                                <img src="./img/Untitled design (2).png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Figma</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Framer</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">WordPress</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="">DeepSchooL center platform Website</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_left">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./img/hello@philmontgomery.co.png" data-lightbox="example-1">
+                                                <img src="./img/hello@philmontgomery.co.png" alt="Portfolio">
+                                            </a>
+
+                                            <img src="./img/portfolio2.jpg" alt="Portfolio">
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">Figma</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Codex</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="">Moonex WordPress Theme</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 scroll-animation" data-animation="fade_from_right">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./img/Now that your eyes are open, make the sun jealous with your burning passion to start the day. Make the sun jealous or stay in bed..png" data-lightbox="example-1">
+                                                <img src="./img/Now that your eyes are open, make the sun jealous with your burning passion to start the day. Make the sun jealous or stay in bed..png" alt="Portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                
+                                                <li>
+                                                    <a href="">Figma</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Photoshop</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="">GOLVEN Dashboard</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./img/Screenshot 2023-12-27 021436.png" data-lightbox="example-1">
+                                                <img src="./img/Screenshot 2023-12-27 021436.png" alt="portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">HTML</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">CSS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">JS</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="">ACH - Real login Site Redesign</a></h2>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
+                                    <div class="portfolio-item portfolio-half">
+                                        <div class="portfolio-item-inner">
+                                            <a href="./img/127.0.0.1_5500_card 6_index.html Overview (2023-12-21 17.30.38).png" data-lightbox="example-1">
+                                                <img src="./img/Screen Shot 2023-12-21 at 01.21.00.png" alt="portfolio">
+                                            </a>
+
+                                            <ul class="portfolio-categories">
+                                                <li>
+                                                    <a href="">html</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">css</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">animation</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <h2><a href="">ACH Gamecube Template</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="contact-area page-section scroll-content" id="contact">
+                    <div class="custom-container">
+                        <div class="contact-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-dollar-sign"></i> contact
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Let's Work <span>Together!</span></h1>
+                            </div>
+                            <h3 class="scroll-animation" data-animation="fade_from_bottom">achraf.xchahid@gmail.com</h3>
+                            <p id="required-msg">* Marked fields are required to fill.</p>
+
+                            <form class="contact-form scroll-animation" data-animation="fade_from_bottom" method="POST" action="mailer.php">
+                                <div class="alert alert-success messenger-box-contact__msg" style="display: none" role="alert">
+                                    Your message was sent successfully.
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="full-name">full Name <sup>*</sup></label>
+                                            <input type="text" name="full-name" id="full-name" placeholder="Your Full Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="email">Email <sup>*</sup></label>
+                                            <input type="email" name="email" id="email" placeholder="Your email adress">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="phone-number">phone <span>(optional)</span></label>
+                                            <input type="text" name="phone-number" id="phone-number" placeholder="Your number phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group">
+                                            <label for="subject">subject <sup>*</sup></label>
+                                            <select name="subject" id="subject">
+                                                <option value="">Select a service</option>
+                                                <option value="subject1">UI UX</option>
+                                                <option value="subject2">front-end</option>
+                                                <option value="subject3">framer / wordpress</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="budget">your budget <span>(optional)</span></label>
+                                            <input type="number" name="budget" id="budget" placeholder="A range budget for your project">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <label for="message">message</label>
+                                            <textarea name="message" id="message" placeholder="Wrire your message here ..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group upload-attachment">
+                                            <div>
+                                                <label for="upload-attachment">
+                                                    <i class="las la-cloud-upload-alt"></i> add an attachment
+                                                    <input type="file" name="file" id="upload-attachment">
+                                                </label>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-group submit-btn-wrap">
+                                            <button class="theme-btn" name="submit" type="submit" id="submit-form">send message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
