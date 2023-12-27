@@ -1,6 +1,8 @@
 @media (max-width: 2000px) {
+    
     .left-sidebar {
         max-width: 400px;
+        padding: 30px;
     }
 
     .Logo {
@@ -22,6 +24,7 @@
         width: 20%; /* Example width */
         transform: translate(20px);
     }
+
 }
 @media (max-width: 1555px) {
     .left-sidebar {
