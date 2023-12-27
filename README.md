@@ -40,7 +40,9 @@
 ```
 
 
-A brief description of your project.
+# Portfolio CV
+
+A brief overview of your personal portfolio showcasing your skills, projects, and experience.
 
 ## Usage
 
@@ -52,9 +54,11 @@ To use this project, follow these steps:
 
 Feel free to customize the project further based on your needs. Add your UI/UX projects to the portfolio section in the `index.html` file.
 
+**Visit my portfolio: [Portfolio](https://golven666.github.io/front-end-box/)**
+
 ## Technologies Used
 
-This project is built using the following technologies, frameworks, and libraries:
+This portfolio is built using the following technologies, frameworks, and libraries:
 
 - HTML5
 - CSS3
@@ -62,7 +66,7 @@ This project is built using the following technologies, frameworks, and librarie
 
 ## Contributing
 
-If you'd like to contribute to this project, please follow these guidelines:
+If you'd like to contribute to this portfolio, please follow these guidelines:
 
 1. Fork the repository on GitHub.
 2. Clone your fork locally: `git clone https://github.com/GOLVEN666/front-end-box/`
@@ -73,8 +77,4 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-If you used any third-party resources or tools, acknowledge and give credit to them.
+This portfolio is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
