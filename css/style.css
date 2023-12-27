@@ -28,7 +28,9 @@ body {
 .bg-white {
   background: #fff;
 }
-
+.row {
+  margin-bottom: 20px;
+}
 img {
   max-width: 100%;
 }
