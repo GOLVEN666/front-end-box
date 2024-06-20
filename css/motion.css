@@ -69,3 +69,15 @@ html {
     }
 }
 
+.monochromatic-map iframe {
+    /* filter: grayscale(100%); */
+    filter: grayscale(100%) sepia(100%) hue-rotate(90deg) brightness(80%) saturate(80%);
+    opacity: 0.5;
+    border-radius: 20px;
+    transition: filter 0.5s ease, opacity 0.5s ease; /* Add this line */
+}
+
+.monochromatic-map iframe:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
